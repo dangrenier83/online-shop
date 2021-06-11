@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'coupons.apps.CouponsConfig',
     'parler',
     'rosetta',
+    'localflavor',
 ]
 
 MIDDLEWARE = [
