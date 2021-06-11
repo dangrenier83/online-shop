@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-11 17:58-0400\n"
-"PO-Revision-Date: 2021-06-11 21:44+0000\n"
+"PO-Revision-Date: 2021-06-11 22:02+0000\n"
 "Last-Translator: b'  <dangrenier83@protonmail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -52,7 +52,7 @@ msgid "Subtotal"
 msgstr "Subtotal"
 
 #: cart/templates/cart/detail.html:60
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "\n"
 #| "            <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
@@ -71,7 +71,7 @@ msgstr "Total"
 
 #: cart/templates/cart/detail.html:81
 msgid "People who bought this also bought"
-msgstr ""
+msgstr "Las personas que compraron esto también compraron"
 
 #: cart/templates/cart/detail.html:94
 msgid "Apply a coupon"
@@ -126,7 +126,6 @@ msgid "done/"
 msgstr "completado/"
 
 #: payment/urls.py:10
-#, fuzzy
 #| msgid "canceled/"
 msgid "canceled"
 msgstr "cancelado/"
@@ -144,7 +143,7 @@ msgid "Your cart"
 msgstr "Tu carro"
 
 #: shop/templates/shop/base.html:38
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "\n"
 #| "                %(total_items)s item%(total_items_plural)s,\n"
