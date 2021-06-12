@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-11 17:58-0400\n"
+"POT-Creation-Date: 2021-06-12 16:48-0400\n"
 "PO-Revision-Date: 2021-06-11 22:02+0000\n"
 "Last-Translator: b'  <dangrenier83@protonmail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +53,6 @@ msgstr "Subtotal"
 
 #: cart/templates/cart/detail.html:60
 #, python-format
-#| msgid ""
-#| "\n"
-#| "            <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
-#| "          "
 msgid ""
 "\n"
 "            <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
@@ -70,6 +66,7 @@ msgid "Total"
 msgstr "Total"
 
 #: cart/templates/cart/detail.html:81
+#: shop/templates/shop/product/detail.html:28
 msgid "People who bought this also bought"
 msgstr "Las personas que compraron esto también compraron"
 
@@ -89,11 +86,11 @@ msgstr "Comprar"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: myshop/settings.py:118
+#: myshop/settings.py:120
 msgid "English"
 msgstr "Inglés"
 
-#: myshop/settings.py:119
+#: myshop/settings.py:121
 msgid "Spanish"
 msgstr "Español"
 
@@ -126,7 +123,6 @@ msgid "done/"
 msgstr "completado/"
 
 #: payment/urls.py:10
-#| msgid "canceled/"
 msgid "canceled"
 msgstr "cancelado/"
 
@@ -144,11 +140,6 @@ msgstr "Tu carro"
 
 #: shop/templates/shop/base.html:38
 #, python-format
-#| msgid ""
-#| "\n"
-#| "                %(total_items)s item%(total_items_plural)s,\n"
-#| "                $%(total_price)s\n"
-#| "              "
 msgid ""
 "\n"
 "                %(items)s item, $%(total)s\n"
